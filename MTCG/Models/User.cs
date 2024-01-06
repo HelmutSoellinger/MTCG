@@ -1,6 +1,8 @@
 ﻿
 
+
 public class User : IUser
+
 {
     // Implement the properties/methods of IUser interface
     public List<ICard> Deck { get; private set; }
