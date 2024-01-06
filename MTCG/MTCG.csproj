@@ -8,9 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+
     <Compile Remove="Business\NewFolder\**" />
     <EmbeddedResource Remove="Business\NewFolder\**" />
     <None Remove="Business\NewFolder\**" />
+
   </ItemGroup>
 
 </Project>

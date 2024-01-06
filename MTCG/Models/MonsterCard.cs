@@ -1,6 +1,8 @@
 ﻿
 
-public class MonsterCard : ICard
+
+public class MonsterCard : Card
+
 {
     public string Name { get; }
     public int Damage { get; }

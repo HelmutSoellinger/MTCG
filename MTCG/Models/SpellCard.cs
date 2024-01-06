@@ -1,7 +1,9 @@
 ﻿
 // Enum to represent element types of a card
 // Class representing a Spell Card
-public class SpellCard : ICard
+
+public class SpellCard : Card
+
 {
     public string Name { get; }
     public int Damage { get; }

@@ -1,6 +1,7 @@
 ﻿
 // Updated class implementing the game server with additional methods
-public class GameServer //: IGameServer
+public class GameServer : IGameServer
+
 {
     private IDatabase database;
     private List<IUser> users;
